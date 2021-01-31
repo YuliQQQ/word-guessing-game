@@ -1,0 +1,31 @@
+.Modal {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  right: 10%;
+  bottom: auto;
+  background: #9c139c;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:  rgba(156, 19, 156, 0.5);
+}
+
+@media only screen and (min-width: 700px) {
+  .Modal {
+    top: 30%;
+    left: 30%;
+    right: 30%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .Modal {
+    top: 40%;
+  }
+}

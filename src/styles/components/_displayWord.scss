@@ -1,0 +1,26 @@
+.hidden-word {
+  margin-top: 15px;
+  padding: 0 10%;
+}
+
+.hidden-word__letter {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+@media only screen and (min-width: 700px) {
+  .hidden-word {
+    margin-top: 50px;
+  }
+
+  .hidden-word__letter {
+    font-size: 40px;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .hidden-word__letter {
+    font-size: 50px;
+  }
+}

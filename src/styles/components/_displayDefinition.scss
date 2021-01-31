@@ -1,0 +1,17 @@
+.definition {
+  font-size: 20px;
+  margin: 0 10%;
+}
+
+@media only screen and (min-width: 700px) {
+  .definition {
+    font-size: 25px;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .definition {
+    font-size: 40px;
+  }
+}
